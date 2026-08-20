@@ -1,0 +1,28 @@
+# Respaldo automático e historias de KiCad
+*-backups/
+_autosave-*
+*.bak
+*.kicad_prl
+
+# Archivos de bloqueo (locks)
+*.lck
+
+# Salidas de fabricación y temporales (a menos que quieras rastrearlas explícitamente)
+/gerbers/
+/plots/
+/gcode/
+*.gtl
+*.gbl
+*.gbs
+*.gts
+*.gbr
+*.drl
+
+# Cache local del proyecto (no necesario si las librerías se incluyen como submódulos)
+fp-info-cache
+
+# Archivos de SO
+.DS_Store
+Thumbs.db
+.history/
+~*.lck
