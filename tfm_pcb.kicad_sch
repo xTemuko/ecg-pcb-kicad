@@ -6500,16 +6500,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 189.23) (xy 265.43 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11777d9b-baa0-4dba-8d2c-6bb9de603cd2")
-	)
-	(wire
-		(pts
 			(xy 176.53 187.96) (xy 179.07 187.96)
 		)
 		(stroke
@@ -7050,16 +7040,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 213.36) (xy 90.17 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4565f3be-6746-49ec-ab70-8db19645b8fe")
-	)
-	(wire
-		(pts
 			(xy 287.02 115.57) (xy 287.02 110.49)
 		)
 		(stroke
@@ -7277,16 +7257,6 @@
 			(type default)
 		)
 		(uuid "5bdc6064-8f4a-405f-8938-d8596a2970a8")
-	)
-	(wire
-		(pts
-			(xy 97.79 219.71) (xy 100.33 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bef735c-c2f2-49d4-acd0-d9f5b0225872")
 	)
 	(wire
 		(pts
@@ -7517,16 +7487,6 @@
 			(type default)
 		)
 		(uuid "72c69245-799e-4e3b-96ee-62eba8f9dd81")
-	)
-	(wire
-		(pts
-			(xy 227.33 201.93) (xy 233.68 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73c04f63-c0b2-4cff-9157-18e778b63ff7")
 	)
 	(wire
 		(pts
@@ -7827,6 +7787,16 @@
 			(type default)
 		)
 		(uuid "882a1128-34c3-447e-9c14-7ed2f4befe6c")
+	)
+	(wire
+		(pts
+			(xy 96.52 217.17) (xy 102.87 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88abcd6c-8851-4619-b803-354718a31b1b")
 	)
 	(wire
 		(pts
@@ -8370,6 +8340,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 217.17) (xy 88.9 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1b45bb-bd6c-47b5-bea2-43357ee0f655")
+	)
+	(wire
+		(pts
 			(xy 289.56 111.76) (xy 289.56 110.49)
 		)
 		(stroke
@@ -8557,16 +8537,6 @@
 			(type default)
 		)
 		(uuid "cf7ab78c-d8fd-4d15-a4ec-40cd63c93b71")
-	)
-	(wire
-		(pts
-			(xy 87.63 219.71) (xy 90.17 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d04ae0a4-714a-40ae-accb-c2f6f592bc0d")
 	)
 	(wire
 		(pts
@@ -9117,16 +9087,6 @@
 			(type default)
 		)
 		(uuid "fb48105c-5c13-40c8-ade6-01278d45c6c5")
-	)
-	(wire
-		(pts
-			(xy 97.79 213.36) (xy 100.33 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fded3171-d6ca-4ac5-8d4a-85f06f4f45c4")
 	)
 	(wire
 		(pts
@@ -10873,7 +10833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 145.542 130.048 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11006,85 +10966,6 @@
 			(project "tfm_pcb"
 				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 93.98 219.71 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e96e07d-fee6-44ec-ba93-da9f1a741048")
-		(property "Reference" "FB1"
-			(at 88.9 221.234 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 93.98 223.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 93.98 217.932 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 93.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0aa62139-54fd-432e-b1b0-e45579720e7b")
-		)
-		(pin "2"
-			(uuid "6871e2ee-831c-4913-aaf8-d29ff2189172")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -11396,84 +11277,6 @@
 			(project "tfm_pcb"
 				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
 					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 254 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "267b8d88-ee07-4502-80c9-229bde1e0ef2")
-		(property "Reference" "J4"
-			(at 254.635 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 254.635 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 254 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 254 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc72e2bf-a8b0-4400-a181-2a2441c32051")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -11877,86 +11680,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 93.98 213.36 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "36e97f3a-69db-46bc-b6fb-cec4b79229c8")
-		(property "Reference" "R15"
-			(at 93.98 207.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 93.98 213.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 93.98 215.138 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 93.98 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c2b0fccc-6c51-4a18-a8af-ee44a39f6a9c")
-		)
-		(pin "1"
-			(uuid "d0641111-9e06-4b3c-9920-dc24d4a799b9")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 160.02 212.09 90)
 		(unit 1)
@@ -12206,85 +11929,6 @@
 			(project "tfm_pcb"
 				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 213.36 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b90f765-7bbf-4951-bd6f-1ca564a144de")
-		(property "Reference" "#PWR030"
-			(at 81.28 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 213.3599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa6b8ceb-5951-4275-bd1c-7edd1dedaffe")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12541,6 +12185,86 @@
 			(project "tfm_pcb"
 				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 92.71 217.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e2b9aad-2e91-4307-85dd-f2bfce75c9da")
+		(property "Reference" "FB1"
+			(at 92.6592 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 92.6592 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 92.71 218.948 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 92.71 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fcf9ff2-12f4-42b1-a54f-913c242f827f")
+		)
+		(pin "2"
+			(uuid "ec5d8759-d95d-4761-a85c-0f988795ec16")
+		)
+		(instances
+			(project "tfm_pcb"
+				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -12882,7 +12606,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4378677d-ccec-4fa6-a885-238d46e8a76e")
 		(property "Reference" "#PWR021"
 			(at 148.59 147.32 0)
@@ -12895,14 +12618,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 148.59 146.05 0)
+		(property "Value" "GND"
+			(at 146.558 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13140,7 +12864,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 142.24 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13190,84 +12914,6 @@
 			(project "tfm_pcb"
 				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 222.25 201.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4955d8ed-c916-4f76-9058-9218e3282112")
-		(property "Reference" "J14"
-			(at 222.885 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 222.885 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 222.25 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 222.25 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db454017-3a2b-4bc0-a3f2-6d30eb251504")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -15209,85 +14855,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 87.63 219.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83339825-aae9-4720-937a-721197aefabe")
-		(property "Reference" "#PWR047"
-			(at 91.44 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 83.82 219.7099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 87.63 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4124c3a3-5c50-48bc-8047-2de85e08be5e")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 40.64 226.06 90)
 		(unit 1)
@@ -15309,7 +14876,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 42.672 224.028 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16144,7 +15711,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 42.672 206.248 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16571,7 +16138,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 169.418 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16649,7 +16216,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 237.49 195.5799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16728,7 +16295,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 312.42 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17118,7 +16685,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 42.672 197.358 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17255,85 +16822,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 233.68 201.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7c6c374-1fa6-461f-a95f-00a793184f55")
-		(property "Reference" "#PWR052"
-			(at 229.87 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 237.49 201.9299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 233.68 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e0f0c7ad-3a4c-4e7d-b57c-2baa66e6a1b7")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 254 199.39 0)
 		(unit 1)
@@ -17411,6 +16899,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 83.82 217.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae09f3d0-b288-4ab8-880a-033c79684867")
+		(property "Reference" "#PWR046"
+			(at 87.63 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 80.01 217.1699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 83.82 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4591e480-6988-47ae-bcf6-87a03418c91a")
+		)
+		(instances
+			(project "tfm_pcb"
+				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 177.8 151.13 0)
 		(unit 1)
@@ -17432,7 +16999,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 180.848 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17728,6 +17295,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 102.87 217.17 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4c3820b-6248-473d-a261-3e99d0ffef61")
+		(property "Reference" "#PWR047"
+			(at 99.06 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 106.68 217.1699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 102.87 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "440b67f2-c48f-4fa5-b74c-d2faf03b0b83")
+		)
+		(instances
+			(project "tfm_pcb"
+				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
 		(at 77.47 194.31 180)
 		(unit 1)
@@ -17909,7 +17555,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 44.45 181.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18207,85 +17853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 265.43 189.23 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4d7afd5-2f5d-4a77-8641-2e7933d91df7")
-		(property "Reference" "#PWR049"
-			(at 261.62 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 269.24 189.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 265.43 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a8f46e3-d462-48cb-a843-f6e2bde52782")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 191.77 187.96 0)
 		(unit 1)
@@ -18546,7 +18113,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 312.42 128.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18624,7 +18191,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 87.122 197.358 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18999,85 +18566,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 100.33 213.36 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5f0c1bb-d229-4d89-a65f-fdcb3583e117")
-		(property "Reference" "#PWR046"
-			(at 106.68 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 104.14 213.3599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 100.33 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1425e820-21a5-4660-b2e7-5f6d09012350")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 166.37 35.56 0)
 		(unit 1)
@@ -19149,85 +18637,6 @@
 			(project "tfm_pcb"
 				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 100.33 219.71 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7525f20-1e1a-4256-9fea-d6ab2e092795")
-		(property "Reference" "#PWR048"
-			(at 96.52 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 104.14 219.7099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 100.33 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad43c8e9-dc2c-46d0-b241-c13c0aa70c86")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
