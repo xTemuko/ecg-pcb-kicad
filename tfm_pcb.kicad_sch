@@ -6766,6 +6766,12 @@
 		(uuid "9c090462-7e98-41b4-8cb0-db2f5cd9a6f2")
 	)
 	(junction
+		(at 292.1 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1e1ae63-3d4c-4b2b-b1fb-a95617333faf")
+	)
+	(junction
 		(at 74.93 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6824,6 +6830,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5963e5b-1e62-47c3-8ee5-12fe592546f3")
+	)
+	(junction
+		(at 293.37 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6cf4e82-c4d9-4563-abb8-b4e248e452a9")
 	)
 	(junction
 		(at 294.64 110.49)
@@ -8163,6 +8175,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 110.49) (xy 283.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b70a04e-5fc0-4887-9503-e705e72f7273")
+	)
+	(wire
+		(pts
 			(xy 212.09 60.96) (xy 215.9 60.96)
 		)
 		(stroke
@@ -8463,6 +8485,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 128.27) (xy 293.37 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9537e841-4076-422b-8e50-9b329345b946")
+	)
+	(wire
+		(pts
 			(xy 194.31 196.85) (xy 195.58 196.85)
 		)
 		(stroke
@@ -8690,6 +8722,16 @@
 			(type default)
 		)
 		(uuid "a999575a-8850-4977-a93a-c83bf8005cff")
+	)
+	(wire
+		(pts
+			(xy 292.1 125.73) (xy 292.1 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aadde971-51c4-467b-a2d5-78b6c65bda62")
 	)
 	(wire
 		(pts
@@ -9153,6 +9195,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 128.27) (xy 284.48 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a9d26a-2d87-429e-8a90-96337505627d")
+	)
+	(wire
+		(pts
 			(xy 176.53 102.87) (xy 180.34 102.87)
 		)
 		(stroke
@@ -9350,6 +9402,16 @@
 			(type default)
 		)
 		(uuid "e7b517d3-5eb8-478f-a266-8ca01f59c094")
+	)
+	(wire
+		(pts
+			(xy 283.21 125.73) (xy 284.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e952bf-a421-4752-8fe0-ef762d7b7a25")
 	)
 	(wire
 		(pts
@@ -11570,6 +11632,86 @@
 			(project "tfm_pcb"
 				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 288.29 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1907f80c-b0a1-4d7c-89ed-a48a122f59a3")
+		(property "Reference" "R18"
+			(at 288.29 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 288.036 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 288.29 130.048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 288.29 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8b1ef926-61e4-46a0-94d1-1df6aa790346")
+		)
+		(pin "1"
+			(uuid "5073c1bf-3a8b-4ce5-ba81-ffc9e2df13fd")
+		)
+		(instances
+			(project "tfm_pcb"
+				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -14974,6 +15116,86 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 288.29 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "744690e6-5eba-4b9c-98c2-12742f2fffb3")
+		(property "Reference" "R19"
+			(at 288.29 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 288.036 123.698 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 288.29 127.508 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 288.29 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aff5a45b-0390-4598-b373-e2f3a9cdc3e7")
+		)
+		(pin "1"
+			(uuid "888a3342-37a8-40c2-981e-d2f9952f8adf")
+		)
+		(instances
+			(project "tfm_pcb"
+				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 289.56 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -18216,7 +18438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 163.83 146.3548 0)
 			(hide yes)
 			(show_name no)
@@ -18983,6 +19205,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3VA")
+		(at 283.21 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d901e678-5351-4175-9d65-bbc05771493f")
+		(property "Reference" "#PWR063"
+			(at 283.21 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 283.21 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 283.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba0e369c-b28e-442e-9173-2fc15de56528")
+		)
+		(instances
+			(project "tfm_pcb"
+				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 165.1 71.12 270)
 		(unit 1)
@@ -19057,6 +19357,84 @@
 			(project "tfm_pcb"
 				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 283.21 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd6511aa-72a9-46eb-bd5c-173043f486fe")
+		(property "Reference" "#PWR064"
+			(at 283.21 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 278.13 114.808 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 283.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7846c85-591d-4e48-9b66-338c256d6403")
+		)
+		(instances
+			(project "tfm_pcb"
+				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -20035,384 +20413,6 @@
 				)
 			)
 		)
-	)
-	(wire
-		(pts
-			(xy 283.21 110.49) (xy 283.21 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b70a04e-5fc0-4887-9503-e705e72f7273")
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 283.21 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d901e678-5351-4175-9d65-bbc05771493f")
-		(property "Reference" "#PWR063"
-			(at 283.21 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 283.21 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 283.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 283.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba0e369c-b28e-442e-9173-2fc15de56528")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 283.21 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dd6511aa-72a9-46eb-bd5c-173043f486fe")
-		(property "Reference" "#PWR064"
-			(at 283.21 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 278.13 114.808 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 283.21 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 283.21 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d7846c85-591d-4e48-9b66-338c256d6403")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 288.29 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1907f80c-b0a1-4d7c-89ed-a48a122f59a3")
-		(property "Reference" "R18"
-			(at 288.29 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 288.036 126.238 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 288.29 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 288.29 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 288.29 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8b1ef926-61e4-46a0-94d1-1df6aa790346")
-		)
-		(pin "1"
-			(uuid "5073c1bf-3a8b-4ce5-ba81-ffc9e2df13fd")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 288.29 125.73 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "744690e6-5eba-4b9c-98c2-12742f2fffb3")
-		(property "Reference" "R19"
-			(at 288.29 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 288.036 123.698 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 288.29 127.508 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 288.29 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 288.29 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "aff5a45b-0390-4598-b373-e2f3a9cdc3e7")
-		)
-		(pin "1"
-			(uuid "888a3342-37a8-40c2-981e-d2f9952f8adf")
-		)
-		(instances
-			(project "tfm_pcb"
-				(path "/4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 283.21 128.27) (xy 284.48 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6a9d26a-2d87-429e-8a90-96337505627d")
-	)
-	(wire
-		(pts
-			(xy 292.1 128.27) (xy 293.37 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9537e841-4076-422b-8e50-9b329345b946")
-	)
-	(wire
-		(pts
-			(xy 283.21 125.73) (xy 284.48 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8e952bf-a421-4752-8fe0-ef762d7b7a25")
-	)
-	(wire
-		(pts
-			(xy 292.1 125.73) (xy 292.1 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aadde971-51c4-467b-a2d5-78b6c65bda62")
-	)
-	(junction
-		(at 292.1 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1e1ae63-3d4c-4b2b-b1fb-a95617333faf")
-	)
-	(junction
-		(at 293.37 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6cf4e82-c4d9-4563-abb8-b4e248e452a9")
 	)
 	(sheet_instances
 		(path "/"
