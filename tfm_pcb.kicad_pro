@@ -254,6 +254,10 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
           "diameter": 0.7,
           "drill": 0.3
         }
@@ -768,7 +772,7 @@
         "uuid": "4cd6c202-e313-4beb-89da-bfd55e6bd2cf"
       }
     ],
-    "used_designators": "R16,R18,J4,J7,#PWR46-47,#PWR60-62,FB1",
+    "used_designators": "R16,R18,R20-21,J4,J7,#PWR30,#PWR46-47,#PWR60-62,FB1",
     "variants": []
   },
   "sheets": [
